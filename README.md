@@ -1,2 +1,2 @@
-# project_euler_again
-# project_euler_again
+# Project Euler first 100 written in Go
+## https://projecteuler.net

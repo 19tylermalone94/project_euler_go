@@ -1,15 +1,19 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func main() {
-	sum := 0
+func init() {
+	problems["p001"] = problem001
+}
+
+func problem001() {
+	fmt.Println("Running Problem 001")
+
+	sol := 0
 	for i := range 1000 {
 		if i%3 == 0 || i%5 == 0 {
-			sum += i
+			sol += i
 		}
 	}
-	fmt.Println(sum)
+	fmt.Println(sol)
 }
